@@ -1,0 +1,50 @@
+
+
+Why Mongo DB
+
+What is NOSQL
+
+CAP Theorum
+
+Types of Data - {Structural, Semi Structural, Unstructural}
+
+Type Database - [Document, Key-Value, Columnar, Graph]
+
+
+MonGO DB
+
+   CAP - CP
+   Type of Data - Semi Structural [JSON]
+   type of Database - Document based Database
+   
+Mongo Data Model
+     
+	 Relational            MongoDB
+	 
+	 Database				Database
+	 Table					Collection
+	 Record/row				Document
+	 Columnar				Property, key
+	 Constraints			No Contraints
+	 Relationship[FK]		No foreign key
+	 Primary key			No primary key but document are uniquely identified with the help of document identified
+	 Index					Index
+	 
+Create Database
+Create a Collection
+Create a document
+            - one document at a time
+            - many documents in one go
+Read operation
+		   - find function
+		   - operators [Relational]
+		   - Logical [and and or]
+		   - in and not in
+		   
+		   Projection
+		      selectiong only select columns
+			  
+Update 
+
+
+   
