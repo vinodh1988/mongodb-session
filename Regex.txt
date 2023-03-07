@@ -1,0 +1,40 @@
+
+
+Regular Expression
+
+  Set of special  characters that represent a pattern which usually
+  meant to compare and match a string
+  
+  ^ - beginning with
+     ex: ^r - starting with 'r'
+ 
+ [] - one character which part of []
+ 
+    [abc] - a or b or c
+	c[ared]t
+	      cat,cet,cdt,crt
+		  
+ [a-z]
+     c[a-z]p
+	 cap ,cbp,ccp,cdp....czp
+  [A-Za-z]
+  [0-9]
+ $ - ending with
+ 
+ {n} - n occurance
+ + - one or more occurance
+ * - Zero or more occurances
+ 
+           ^C[a-z]{3}n$
+		   
+		   Corn , Creen, Crean,Caran, Cart , dart, dog,Ct,Cp
+		   
+		   matches: creen, crean, caran
+		   
+		   ^C[a-z]+[a-z]$
+		   matches: Corn,Creen, Crean,Caran, Cart,
+		   
+		   ^C[a-z]*[a-z]$
+		   matches: Corn,Creen, Crean,Caran, Cart,Ct,Cp
+		   
+		   

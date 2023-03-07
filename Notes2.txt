@@ -1,0 +1,21 @@
+
+Mongo DB
+
+Map Reduce
+
+Collection ? - list of documents
+
+list of documents -> map ?
+
+ map would process each document and would emit required properties/fields in general two properties
+ to processed by reduce
+ 
+ reduce would take the input from map and process it
+ and finally come up with a result
+ 
+ the result would be stored in new collection
+ 
+ 
+ collection -> map - > reduce -> new collection
+ 
+ mapReduce(mapfunction,reducefunction,{colletioname})

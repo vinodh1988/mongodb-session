@@ -1,0 +1,39 @@
+
+
+list of values? - each element in the list will be given as input to the operation
+
+   filter
+           it takes each input and it will pass the variable to a conditional expression
+		   if the result of the conditional expression is true, the input will be intact or it ll be removed
+		   
+		   list= [34,35,331,534,533,134]
+		   result=filter((x)=>x%2==0)
+		   result will be [34,534,134]
+		   
+		   no of input elements >= number of output elements
+   
+   map
+   
+         it takes each input and it will generate a new value by processing the input
+		 
+		 list=['Ram','ravi','Raj','Rakesh']
+		 result map(x=>x.toUppercase())
+		 result will be ["RAVI","RAJ","RAKESH"]
+		 
+		 number of input elements = number of output elements
+   reduce
+   
+        it takes each input and process it and every time the previous result is 
+		passed for next iteration and finally one result is produced
+		
+		list =[1,3,6,9,10]
+		result = reduce( (x,y)=> x+y )
+		how it works?
+		
+		iteration 1 -> 1,3 => 1+3 => 4
+		iteration 2 -> 4,6 => 4+6 => 10
+		iteration 3 => 10,9 => 19
+		iteration 4 => 19,10 => 29
+		
+		
+    

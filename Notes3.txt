@@ -1,0 +1,33 @@
+
+
+GridFs - Dealing with files in mongodB
+
+Indexes in Mongo DB
+
+Security
+
+Replication - Sharding?
+
+
+---------------------------------------------------------------
+
+Crud operations
+  $where
+  $regex
+  
+ Aggreation
+ 
+ Bulk operations
+ 
+ Map Reduce
+ 
+ ---------------------------------------------------------
+ 
+ Tools
+ 
+ MongoImport
+ MongoExport
+ MongoDump
+ MongoRestore
+ 
+ 
