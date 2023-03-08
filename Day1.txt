@@ -2,9 +2,12 @@
 
 Why Mongo DB
 
+What is ACID
+
 What is NOSQL
 
 CAP Theorum
+      - Consistency, Availability and Partition Tolerance
 
 Types of Data - {Structural, Semi Structural, Unstructural}
 
@@ -29,7 +32,8 @@ Mongo Data Model
 	 Relationship[FK]		No foreign key
 	 Primary key			No primary key but document are uniquely identified with the help of document identified
 	 Index					Index
-	 
+Hands one
+
 Create Database
 Create a Collection
 Create a document
@@ -40,11 +44,35 @@ Read operation
 		   - operators [Relational]
 		   - Logical [and and or]
 		   - in and not in
+		   - $where
+		   - $regex
 		   
 		   Projection
 		      selectiong only select columns
 			  
+Aggregate Operations
+			  $group
+			  $match
+			  $project
+			  $sort
 Update 
+Remove
+
+Performing Bulk Operations
+Map and Reduce
+
+--------------------------------------------------------
+Administration
+
+Editing DB configuation /etc/mongod.configuation
+mongod is demon process which needs to run to start an instance
+exporting a collection -mongoexport
+importing a collection - mongoimport
+backing up a complete database - mongodump
+restoring a complete database - mongorestore
+
+
+-----------------------------------------------------
 
 
    
